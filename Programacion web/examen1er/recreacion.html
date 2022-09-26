@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producción académica</title>
+    <link rel="stylesheet" href="recreacion.css" type="text/css">
+</head>
+<body>
+    <header>
+        <img src="casa.png" id="casa"> > Inicio > <b>Producción académica</b>
+        <span style="float:right"><a href="#">Salir</a></span>
+        <span style="float:right" id="nombre">IRMA AMAYA</span>
+    </header>
+    <div id="inputs">
+        <h1 id="seleccione">Seleccione un tipo de <br>producción:</h1>
+        <select id="articulo_bueno">
+            <option value="" disabled selected>Artículo de divulgación y difusión.<option></option>
+        </select>
+        <hr id="separador">
+        <h2>Agregar artículo de Difusión y Divulgación</h2>
+        <hr>
+        <div class="parent">
+            <div class="div" id="div1">
+                Autor(es)*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div2">
+                Título del artículo*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div3">
+                Estado actual*: 
+                <br>
+                <select id="articulo">
+                    <option value="" disabled selected hidden>Selecciona el estado actual<option></option>
+                </select>
+            </div>
+            <div class="div" id="div4">
+                Nombre de la Revista*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div5">
+                De la página*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div6">
+                A la página*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div7">
+                País*:
+                <br>
+                <select id="articulo">
+                    <option value="" disabled selected hidden>MÉXICO<option></option>
+                </select>
+            </div>
+            <div class="div" id="div8">
+                Editorial*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div9">
+                Volumen*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div10">
+                ISSN*: <br>
+                <input id="autor">
+            </div>
+            <div class="div" id="div11">
+                Fecha Publicación*:
+                <br>
+                <input type="date" id="fecha">
+            </div>
+            <div class="div" id="div12">
+                Propósito*:
+                <br>
+                <select id="articulo">
+                    <option value="" disabled selected hidden>Seleccione el propósito<option></option>
+                </select>
+            </div>
+        </div>
+        <p id="ultimo">
+        ¿Considerar para el currículum de <br>cuerpo académico?*: <br>
+        <input id="autor">
+        </p>
+    </div>
+    <footer>
+        * Campos obligatorios.
+        <button id="btn-acc" type="button" style="float:right"><a href="#" id="btn-1">Aceptar</a></button>
+        <button id="btn-can" type="button" style="float:right"><a href="#" id="btn-2">Cancelar</a></button>
+    </footer>
+</body>
+</html>

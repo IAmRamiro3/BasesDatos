@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Javascript</title>
+    <script>
+        function nuevaVentana(URL){
+            window.open(URL, "wnd","toolbar=yes, location=yes, menubar=yes, resizable=no, width=1000, height=400");
+        }
+
+        function modifica(){
+            let x = document.getElementById('user').value;
+            alert("valor recibido = " + x);
+        }
+
+        function check(){
+            let h = document.getElementById('pass1').value;
+            let j = document.getElementById('pass2').value;
+
+            if(h != "" && j != ""){            
+                if (h != j) {
+                    document.getElementById('error').innerHTML = "<i>Las contraseñas no coinciden...</i>";
+                    document.getElementById('error').style.display = "block";
+                } else {
+                    document.getElementById('error').style.display = "none";
+                }
+            } 
+        }
+    </script>
+    <style>
+        input{
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onClick="nuevaVentana('http://www.cetys.mx');">
+        <i>Sorpresa de la escuela</i>
+    </button>
+
+    <div>
+        <br>
+    </div>
+
+    <form action="" method="POST">
+        Login: <input type="text" id="user" name="user" required>
+        <br>
+        Contraseña: <input type="password" id="pass1" onChange="check()" required>
+        <br>
+        Confirme contraseña: <input type="password" id="pass2" onChange="check()" required>
+        <br>
+        <div id="error">
+            <i></i>
+        </div>
+        <br>
+        <button type="button" onClick="modifica()" id="valida" name="valida">Valida</button>
+    </form>
+</body>
+</html>

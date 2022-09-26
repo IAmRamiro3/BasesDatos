@@ -1,0 +1,408 @@
+a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+}
+#botones{
+    background-color: black;
+}   
+.opciones{
+    margin-top: 1em;
+    padding: 16px 14px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: flex;  
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(252,185,0,1);
+}
+#logo_grande{
+    width: 6%;
+    height: 6%;
+    margin-left: 6em;
+    margin-top: 0.5em;
+}
+#ofertas{
+    background-color: rgba(252,185,0,1);
+    color: white;
+    border-radius: 50px;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: large;
+    border: none;
+}
+#ofertas:hover{
+    cursor: pointer;
+    background-color: rgba(216,158,1,1);
+}
+body, html{
+    color: #3e3e3e;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#foto{
+    height: 100%;
+    width: 100%;
+}
+#hola{
+    background-color: gray;
+    text-align: center;
+}
+#btn-ofertas{
+    padding: 3em;
+}
+#inicio{
+    grid-template-columns:  3fr 1fr;
+}
+#texto-aca{
+    padding: 1em;
+}
+#texto-1{
+    color: black;
+    font-size:x-large;
+}
+#texto-2{
+    color:white;
+    font-size: x-large;
+}
+#texto-grid{
+    padding: 5em;
+    text-justify: auto;
+}
+#cetys{
+    font-size: xx-large;
+}
+#nuestra{
+    color: #ffd000;
+}
+#conoce{
+    background-color: white;
+    color: black;
+    border-color: #3e3e3e;
+    border-radius: 60px;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+#conoce:hover{
+    background-color: #ffd000;
+    color: white;
+}
+#conoce-mas{
+    padding: 2em;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 2fr) 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 25px;
+}
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+.div2 { grid-area: 1 / 2 / 3 / 3; }
+.div3 { grid-area: 1 / 3 / 3 / 4; }
+.div4 { grid-area: 1 / 4 / 3 / 5; }
+.div5 { grid-area: 1 / 5 / 3 / 6; }
+.div6 { grid-area: 1 / 6 / 3 / 7; }
+
+#pen{
+    width: 50px;
+    height: 50px;
+    padding: 0.6em;
+}
+#prepa{
+    color: black;
+}
+#prepa:hover{
+    color: #ffd000;
+}
+#cruz{
+    width: 15px;
+    height: 15px;
+}
+#linea{
+    width: 30px;
+    height: 45px;
+}
+#mejores{
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr) 1fr;
+    grid-template-rows: 2fr 3fr 1fr;
+    text-align: center; 
+    background-color: #fff8f8;
+}
+    
+.div-1 { grid-area: 1 / 1 / 4 / 2; }
+.div-2 { grid-area: 1 / 5 / 4 / 6; }
+.div-3 { grid-area: 1 / 2 / 2 / 5; padding: 1em;}
+.div-4 { grid-area: 3 / 2 / 4 / 5; }
+.div-5 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: white;
+}
+.div-6 { grid-area: 2 / 3 / 3 / 4; background-color: white;}
+.div-7 { grid-area: 2 / 4 / 3 / 5; background-color: white;}
+
+#busqueda{
+    font-size: x-large;
+}
+#somos{
+    font-size: x-large;
+}
+#doc{
+    width: 60px;
+    height: 50px;
+    padding: 2em;
+}
+#numero{
+    font-size: 70px;
+}
+#acreditaciones{
+    line-height: 25px;
+    
+}
+#acred{
+    color: black;
+}
+#acred:hover{
+    color: #ffd000;
+}
+#linea-gris{
+    width: 20px;
+    padding: 1em;
+}
+#zorrito{
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #ffd000;
+    margin-top: 1.5em;
+    
+}
+#zorrito:hover{
+    background-color: white;
+}
+#lupa{
+    margin-top: 0.5em;
+    padding: 1em;
+}
+#debajo{
+    width: 1480px;
+    height: 700px;
+}
+#test1 {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 3fr) 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+
+#ts1 { grid-area: 1 / 1 / 2 / 2; }
+#ts2 { grid-area: 1 / 2 / 2 / 3; }
+#ts3 { grid-area: 1 / 3 / 2 / 4; }
+#ts4 { grid-area: 1 / 4 / 2 / 5; }
+#ts5 { grid-area: 1 / 5 / 2 / 6; }
+
+#testimonio1{
+    width: 360px;
+    height: 200px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+#marilu{
+    color: black;
+}
+#marilu:hover{
+    color: #ffd000;
+}
+#zona{
+    color: #ffd000;
+}
+#acredi{
+    display: grid;
+    grid-template-columns: 1.5fr repeat(7, 1fr) 1.5fr;
+    grid-template-rows: 1fr repeat(3, 1fr);
+    margin-top: 1em;
+    text-align: center;
+}
+
+#acr1 { grid-area: 1 / 1 / 5 / 2; }
+#acr2 { grid-area: 1 / 9 / 5 / 10; }
+#acr3 { grid-area: 1 / 2 / 2 / 9; }
+#acr4 { grid-area: 2 / 2 / 3 / 3; }
+#acr5 { grid-area: 2 / 3 / 3 / 4; }
+#acr6 { grid-area: 2 / 4 / 3 / 5; }
+#acr7 { grid-area: 2 / 5 / 3 / 6; }
+#acr8 { grid-area: 2 / 6 / 3 / 7; }
+#acr9 { grid-area: 2 / 7 / 3 / 8; }
+#acr10 { grid-area: 2 / 8 / 3 / 9; }
+#acr11 { grid-area: 3 / 2 / 4 / 3; }
+#acr12 { grid-area: 3 / 3 / 4 / 4; }
+#acr13 { grid-area: 3 / 4 / 4 / 5; }
+#acr14 { grid-area: 3 / 5 / 4 / 6; }
+#acr15 { grid-area: 3 / 6 / 4 / 7; }
+#acr16 { grid-area: 3 / 7 / 4 / 8; }
+#acr17 { grid-area: 3 / 8 / 4 / 9; }
+#acr18 { grid-area: 4 / 2 / 5 / 9; }
+
+#acreditaciones-2{
+    text-align: center;
+}
+#calidad{
+    font-size: 20px;
+}
+.img_acre{
+    padding: 1em;
+}
+#conoce_todas{
+    color: white;
+    background-color: rgb(174, 169, 169);
+    border-radius: 4em;
+    border: none;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+#conoce_todas:hover{
+    background-color: rgb(164, 160, 160);
+}
+#campus{
+    background-color: #fff8f8;
+}
+#informacion {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr) 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    text-align: center;
+}
+
+#info-1 { grid-area: 1 / 1 / 2 / 6; }
+#info-2 { grid-area: 2 / 2 / 3 / 3; }
+#info-3 { grid-area: 2 / 3 / 3 / 4; }
+#info-4 { grid-area: 2 / 4 / 3 / 5; }
+#info-5 { grid-area: 2 / 1 / 3 / 2; }
+#info-6 { grid-area: 2 / 5 / 3 / 6; }
+#info-7 { grid-area: 3 / 1 / 4 / 6; }
+
+.escuelas{
+    width: 320px;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+#info-cetys{
+    color: black;
+}
+#info-cetys:hover{
+    color: #ffd000;
+}
+.campuses{
+    text-align: left;
+}
+#dir-mex{
+    margin-bottom: 2em;
+}
+#info{
+    background-color: #ffd000;
+    border-radius: 4em;
+    border: none;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 15px;
+}
+#contacto{
+    text-align: center;
+}
+.inputs{
+    padding: 1em;
+    margin-top: 1.5em;
+}
+.loguitos{
+    width: 15px;
+    margin-right: 10px;
+}
+#nombre-input{
+    width: 40em;
+    margin-right: 1em;
+}
+#mail-input{
+    width: 40em;
+}
+#tel-input{
+    width: 83.6em;
+}
+#men-input{
+    width: 83.6em;
+    height: 10em;
+}
+#check{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+#enviar{
+    background-color:gray;
+    color: white;
+    border-radius: 5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    font-size: large;
+    border: none;
+    margin-bottom: 4em;   
+}
+#cuadro-negro{
+    height: 1em;
+    background-color: rgb(26, 25, 25);
+}
+#datos-escuelas{
+    background-color: #ffd000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 5fr;
+    text-align: center;
+}
+#fafa-1 { grid-area: 2 / 1 / 2 / 2; }
+#fafa-2 { grid-area: 2 / 2 / 2 / 3; }
+#fafa-3 { grid-area: 2 / 3 / 2 / 4; }
+#fafa-4 { grid-area: 2 / 4 / 2 / 5; }
+#fafa-5 { grid-area: 1 / 1 / 1 / 5; }
+
+#footer{
+    background-color: black;
+    font-size: 13px;
+    padding: 1em;
+}
+.opciones-1{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#politicas{
+    color: black;
+}
+#politicas:hover{
+    color: #ffd000;
+}
